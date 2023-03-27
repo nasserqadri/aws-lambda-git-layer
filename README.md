@@ -4,7 +4,7 @@ This project provides the requisite files to make git commands in Python in AWS 
 * one file to install the git binary
 * one file to install the required GitPython modules (see https://pypi.org/project/GitPython/)
 
-I tried to use the ARNs provided here, but they didn't work for my instance: https://github.com/lambci/git-lambda-layer 
+I initially tried to use the ARNs provided here, but they didn't work for my instance: https://github.com/lambci/git-lambda-layer. Hence I've created my own. 
 
 For now I've just provided the two zip files. In the future, I'll include notes on how to create these in case users want to ingest a different version of either the modules or the git binary.
 
